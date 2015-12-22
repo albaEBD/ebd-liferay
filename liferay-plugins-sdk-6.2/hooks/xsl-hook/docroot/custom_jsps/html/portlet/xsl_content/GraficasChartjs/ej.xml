@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<table>
+<tr><th>Batt_Volt</th><td>16.42396</td></tr>
+<tr><th>Temp_Interna</th><td>25.4909</td></tr>
+<tr><th>Rain_mm</th><td>0</td></tr>
+<tr><th>Dir_Viento_Min</th><td>65</td></tr>
+<tr><th>Dir_Viento_Med</th><td>102</td></tr>
+<tr><th>Dir_Viento_Max</th><td>159</td></tr>
+<tr><th>Vel_Viento_Min</th><td>1.4</td></tr>
+<tr><th>Vel_Viento_Med</th><td>2.5</td></tr>
+<tr><th>Vel_Viento_Max</th><td>4.9</td></tr>
+<tr><th>Temp_Aire</th><td>16</td></tr>
+<tr><th>WXT510(8)</th><td>17.6</td></tr>
+<tr><th>Hum_Rel</th><td>48.2</td></tr>
+<tr><th>Pre_Atmosferica</th><td>1010.5</td></tr>
+<tr><th>WXT510(11)</th><td>0</td></tr>
+<tr><th>Setup_Viento</th><td>"0XWU,R=1111110001111111,I=5,A=5,U=M,D=0,N=W,F=4"</td></tr>
+<tr><th>Setup_PTU</th><td>"0XTU,R=1111111111111111,I=60,P=B,T=C"</td></tr>
+</table>

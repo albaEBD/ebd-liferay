@@ -1,0 +1,358 @@
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url(fonts/PT_Sans_Narrow/UyYrYy3ltEffJV9QueSi4RdbPw3QSf9R-kE0EsQUn2A.woff) format('woff'), url(fonts/PT_Sans_Narrow/UyYrYy3ltEffJV9QueSi4UU-p1xzoRgkupcXIqgYFBc.woff2) format('woff2');
+}
+
+
+// Typography
+// -------------------------
+.aui 
+{ 
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.aui body
+{ 
+	font-family: 'PT Sans Narrow', sans-serif;
+	
+}
+
+.aui .navbar-inner {
+  background-color:#EAE8DB;
+  border-radius:8px;
+  font-size:17px;
+  -webkit-box-shadow:none;
+  background-image:none;
+  box-shadow:none;
+}
+
+.aui .navbar .navbar-inner {
+min-height: 47px;
+max-height: 50px;
+}
+
+.aui #navigation .navbar-inner .nav > li a {
+padding: 4px 18px 8px;
+color: #777;
+margin: 8px 2px;
+
+}
+
+.aui #navigation .navbar-inner .nav li.active > a, 
+.aui #navigation .navbar-inner .nav li.open > a {
+background: none repeat scroll 0% 0% #c27615;
+color: #FFF;
+border-radius: 6px;
+padding: 4px 18px 8px;
+margin: 4px 2px;
+}
+
+.aui #navigation.open .navbar-inner .nav-collapse {
+    height: auto;
+    overflow: visible;
+    background-color: #EAE8DB;
+}
+
+/* color background y bordes submenu*/ 
+
+.aui #navigation .navbar-inner .nav .dropdown-menu {
+background-color: #FFF;
+border: 1px solid #CCC;
+border-color: rgba(0,0,0,0.2);
+}
+.aui .dropdown-menu > li > a {
+  clear:both;
+  color:#333333;
+  display:block;
+  font-weight:normal;
+  line-height:20px;
+  padding:3px 20px;
+  white-space:nowrap;
+}
+
+/*Color enlaces submenu*/
+.aui #navigation .navbar-inner .nav .dropdown-menu a {
+color: #555;
+}
+
+.aui #navigation .navbar-inner .nav .dropdown-menu a:hover{
+background: #c27615;
+text-decoration: none;
+color: #FFF;
+}
+
+
+
+
+
+.portlet-title img {
+  display: none;
+}
+
+.aui .portlet-title-text{
+	font-size: 22px;
+	color: #A55445;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.aui .breadcrumb{
+	 background-color: white;
+}
+
+
+.aui .container-fluid{
+	background-color: white;
+}
+
+
+
+
+
+
+
+/* ----------- css tema en produccion ---------- */
+
+/***Mobile*****/
+.aui body {
+ margin-top: 5px;
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 17px;
+}
+.aui #heading .site-title img {
+width: inherit;
+}
+.aui #heading .site-title {
+font-size: 18px;
+}
+.aui #heading {
+bottom: 0%;
+position: inherit;
+}
+.aui .site-title .site-name {
+display: inherit;
+}
+/*******************************/
+/*****General*********************/
+
+/****Minimizando la columna superior del layout**/
+#column-1 {
+ min-height: 1px; 
+}
+/*********************************/
+
+.aui #wrapper {
+position: relative;
+max-width: 1450px;
+margin: auto;
+}
+
+#dummybodyid {
+margin: auto;
+background-color: rgba(203, 212, 212, 0.1);
+}
+
+body {
+margin: 0;
+font-family: Ubuntu;
+font-size: 14px;
+line-height: 20px;
+color: #333;
+background-color: rgba(203, 212, 212, 0.1);
+font-weight: 500;
+}
+
+aui {
+    background: none repeat scroll 0% 0% #cbd4d4;
+}
+
+/***** Background de navegación ********/
+
+.aui::selection {
+background: #C27615;
+color: #FFF;
+}
+.aui  #navigation .navbar-inner .nav li.open>.dropdown-toggle {
+background: #C27615;
+color: #FFF;
+}
+.aui #navigation .navbar-inner .nav .dropdown-menu a:focus, 
+.aui  #navigation .navbar-inner .nav .dropdown-menu a:hover {
+background: #C27615;
+color: #FFF;
+text-decoration: none;
+}
+
+
+
+/**************************************************************/
+.taglib-social-bookmarks {
+background: transparent;
+}
+
+.aui #breadcrumbs {
+margin-bottom: 2px;
+}
+
+.aui a {
+color: #3E738D;
+font-weight: 200;
+}
+.aui h2 {
+font-size: 22px;
+}
+
+.aui .navbar {
+overflow: visible;
+margin-bottom: 20px;
+border-radius: 8px;
+background-color: transparent;
+}
+
+.aui #navigation .navbar-inner, 
+.aui #navigation .navbar-inner {
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+border-radius: 6px;
+}
+
+/*.aui #navigation.open .navbar-inner .nav-collapse {
+background-color: #eae8db;
+}*/
+
+.aui .portlet {
+background: transparent;
+border-radius: 8px;
+}
+/*Evitando la rotura de la palabra asociada al estilo por defecto de estos portlets para FF: en vez de break-all -> normal */
+#main-content div {
+   /* word-break: normal;*/
+   word-break: normal;
+  -moz-hyphens: none;
+}
+
+.portlet-blogs {
+ word-break: normal;
+}
+/*Evitar el desbordamiento del div contenedor de los items mltimedia*/
+.accordion{
+  max-width:98%;
+}
+/**Estilos para layout 1-2-1 sin utilizar la columna 1**/
+.portlet-dropzone portlet-column-content portlet-column-content-only empty {
+  padding:0;
+}
+#layout-column_column-1{
+  padding:0;
+}
+/*OJO: Modificar tamaño de columnas según ancho de pantalla*/
+@media (min-width: 800px) {
+#column-2 {max-width:25%;}
+#column-3 {width:72%;}
+}
+/*#p_p_id_82_ .portlet-borderless-bar{
+  display:none;
+}
+#p_p_id_82_ {
+max-width: 6%;
+float: right;
+}
+*/
+/*CSS FLAT01 Penicillium*/
+.aui #heading .site-title {
+font-size: 22px;
+margin-top: 10px;
+}
+
+/*.aui .navbar {
+overflow: visible;
+margin-bottom: 20px;
+background-color: rgb(207, 239, 226);
+border-radius: 8px;
+}*/
+
+/*.aui .light .portlet {
+background: transparent;
+border-radius: 8px;
+}*/
+
+
+
+
+
+
+/***** Cierre filtro por etiquetas ***/
+
+/*.textboxlistentry-close::after {
+content:"x";
+font-weight:bold;
+color:red;
+}*/
+
+/**************/
+.aui .portlet-asset-publisher .asset-content, 
+.aui .portlet-asset-publisher .asset-summary, 
+.aui .portlet-asset-publisher .asset-title, 
+.aui .portlet-asset-publisher .header-title, 
+.aui .portlet-asset-publisher li.title-list, 
+.aui .portlet-blogs .entry-body, 
+.aui .portlet-blogs .entry-title, 
+.aui .portlet-blogs .header-title, 
+.aui .portlet-journal-content .journal-content-article, 
+.aui .portlet-message-boards .header-title, 
+.aui .portlet-message-boards .thread-body {
+    word-break: normal;
+    -moz-hyphens: auto;
+}
+
+.aui .portlet-title h1 {
+	line-height: none;
+}
+.portlet-content, 
+.portlet-minimized .portlet-content-container {
+padding: 2px 0px 0px;
+}
+
+
+.aui #navigation.open .navbar-inner .nav-collapse {
+height: auto;
+overflow: visible;
+background-color: #EAE8DB;
+border-radius: 8px;
+}
+
+
+
+/*********TESTING CSS NUEVO***********/
+
+#languag .portlet-borderless-container {
+    min-height: 1.5em;
+    position: relative;
+    max-width: 6em;
+    float: right;
+}
+
+.powered-by {
+	float:right;
+}
+
+.aui#sign-in a {
+	float:fight;
+}
+
+.aui .lfr-hudcrumbs{
+	display:none;
+}

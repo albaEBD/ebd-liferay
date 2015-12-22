@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="es.csic.ebd"
+		module="digest-hook"
+		revision="working@usuario-OptiPlex-9020"
+		conf="default"
+		confs="default"
+		date="20150413153248"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>
